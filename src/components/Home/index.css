@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  max-height: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .login-button {
+    max-height: 35px;
+    max-width: 120px;
+    font-size: 12px;
+  }
+  .logout-button {
+    max-height: 35px;
+    max-width: 120px;
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    align-items: center;
+  }
+
+  .card {
+    background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+    width: 50%;
+  }
+  .login-button {
+    max-height: 35px;
+    max-width: 150px;
+    font-size: 15px;
+  }
+  .logout-button {
+    max-height: 35px;
+    max-width: 150px;
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+}
